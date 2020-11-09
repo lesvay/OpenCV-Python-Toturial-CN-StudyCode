@@ -1,6 +1,6 @@
 from cv2 import cv2
 import numpy as np
-img=cv2.imread('9/9-1.jpg')
+img=cv2.imread('img/bird.jpg')
 '''
 #获取灰度值和修改灰度值
 print(img)#输出该图像的灰度值

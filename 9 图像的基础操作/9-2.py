@@ -2,7 +2,7 @@ from cv2 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 BLUE=[255,0,0]
-img1=cv2.imread('9/9-1.jpg')
+img1=cv2.imread('img/bird.jpg')
 
 replicate  = cv2.copyMakeBorder(img1,10,10,10,10,cv2.BORDER_REPLICATE)
 reflect    = cv2.copyMakeBorder(img1,10,10,10,10,cv2.BORDER_REFLECT)

@@ -8,7 +8,7 @@ from cv2 import cv2
 引用时改成from cv2 import cv2就不会出现红色波浪
 
 '''
-img = cv2.imread('4/4-1.jpg',0)
+img = cv2.imread('img/bird.jpg',0)
 
 '''
 显示图像
@@ -29,4 +29,4 @@ cv2.destroyAllWindows()
 '''
 保存图像
 '''
-cv2.imwrite('4/4-1-save.png',img)
+cv2.imwrite('4/save.png',img)
